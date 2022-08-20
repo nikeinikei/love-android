@@ -4,13 +4,13 @@ plugins {
 
 android {
     compileSdk 31
-    ndkVersion "23.1.7779620"
+    ndkVersion "25.0.8775105"
 
     defaultConfig {
         applicationId "org.love2d.android"
         versionCode 31
         versionName "12.0"
-        minSdk 21
+        minSdk 24
         targetSdk 31
         externalNativeBuild {
             cmake {
